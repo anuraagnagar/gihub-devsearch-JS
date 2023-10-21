@@ -1,1 +1,1 @@
-# gihub-devsearch-JS
+# Github Developer Finder 
