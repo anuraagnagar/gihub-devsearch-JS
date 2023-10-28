@@ -7,7 +7,7 @@ It is built using HTML, CSS, JavaScript, and Tailwind CSS.
 
 You can see a live demo of the GitHub User Search App ![HERE](https://github-devsearch.netlify.app/).
 
-![Demo Image](https://github.com/anuraagnagar/github-devsearch-JS/blob/main/content/screenshots/shot.png)
+![Demo Image](https://github.com/anuraagnagar/github-devsearch-JS/blob/main/content/screenshot/shot.png)
 
 ## Features
 
