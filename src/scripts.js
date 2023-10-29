@@ -113,12 +113,10 @@ function showUserDetail(data) {
   };
 
   // set user basic details.
-  userProfile.src = checkNull(data.avatar_url)
-    ? data.avatar_url
-    : data.avatar_url;
-  userFullname.textContent = data.name;
-  userName.href = `https://github.com/${data.login}`;
+  userProfile.src = data.avatar_url;
+  userFullname.textContent = checkNull(data.name) ? data.name : "Not Found";
   userName.textContent = `@${data.login}`;
+  userName.href = `https://github.com/${data.login}`;
   userBio.textContent = checkNull(data.bio) ? data.bio : "404 Bio Not Found";
 
   // set user social details.
@@ -128,13 +126,13 @@ function showUserDetail(data) {
   userWebsite.textContent = checkNull(data.blog) ? data.blog : "Not Available";
   userWebsite.href = checkNull(data.blog) ? data.blog : "#";
   userTwitter.textContent = checkNull(data.twitter_username)
-    ? data.twitter_username
+    ? `@${data.twitter_username}`
     : "Not Available";
   userTwitter.href = checkNull(data.twitter_username)
-    ? data.twitter_username
+    ? `https://twitter.com/${data.twitter_username}`
     : "#";
   userEmail.textContent = checkNull(data.email) ? data.email : "Not Available";
-  userEmail.href = checkNull(data.email) ? data.email : "#";
+  userEmail.href = checkNull(data.email) ? `mailto:${data.email}` : "#";
   userCompany.textContent = checkNull(data.company)
     ? data.company
     : "Not Available";
