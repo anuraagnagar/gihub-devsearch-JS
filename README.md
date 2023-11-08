@@ -3,11 +3,13 @@
 This is a simple web application that allows you to search for GitHub users using the GitHub API.
 It is built using HTML, CSS, JavaScript, and Tailwind CSS.
 
-## Demo
+## Live Preview & Screenshots
 
-You can see a live demo of the GitHub User Search App ![HERE](https://github-devsearch.netlify.app/).
+You can see a live demo of the GitHub Dev Search App [HERE](https://github-devsearch.netlify.app/).
 
-![Demo Image](https://github.com/anuraagnagar/github-devsearch-JS/blob/main/content/screenshot/shot.png)
+![Dark Mode Image](https://github.com/anuraagnagar/github-devsearch-JS/blob/main/content/screenshot/shot.png)
+
+![Light Mode Image](https://github.com/anuraagnagar/github-devsearch-JS/blob/main/content/screenshot/shot-2.png)
 
 ## Features
 
